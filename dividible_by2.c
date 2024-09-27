@@ -12,7 +12,7 @@ int main(){
      z = x * y;
     printf("Your answer is: %d * %d = %d\n",x, y, z);
     if (z%2==0){
-        printf("DIivisible by 2\n");
+        printf("Divisible by 2\n");
     }
     else {
         printf("Not divisible by 2");
