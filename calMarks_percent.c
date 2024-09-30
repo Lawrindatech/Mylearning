@@ -22,10 +22,18 @@ int main(){
     sum = sub1 + sub2 + sub3 + sub4 + sub5;
 
     percentage = ((float)sum / total)* 100;
-    printf("====================================RESULT=============================");
-    printf("\nSTUDENT NUMBER: %ld", stuNum);
-    printf("\nTOTAL MARKS: %d", sum);
+    printf("=================================================================\n");
+    printf("                                 RESULT                          ");
+    printf("\n=================================================================");
+    printf("\nSTUDENT NUMBER  : %ld", stuNum);
+    printf("\nTOTAL MARKS     : %d", sum);
     printf("\nTOTAL PERCENTAGE: %.2f", percentage);
+    
+
+     (percentage >= 50)?
+        printf("\nCongratulations, you passed") :
+        printf("\nSorry,You failed");
+    printf("\n=================================================================");
 
 
     return 0;
