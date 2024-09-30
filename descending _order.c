@@ -1,10 +1,11 @@
 // C program to sort array elements in descending order 
+
 #include <stdio.h> 
 
 int main() 
 { 
 
-	int a[5] = { 4, 20, 100, 66, 37 }; 
+	int a[5] = { 45, 22, 100, 66, 37 }; 
 	int n = 5, i, j, t = 0; 
 	
 	// iterates the array elements 

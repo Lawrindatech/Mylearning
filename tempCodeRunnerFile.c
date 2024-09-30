@@ -1,14 +1,30 @@
-#include <graphics.h>
-#include <conio.h>
+// C program to sort array elements in descending order 
+#include <stdio.h> 
 
-int main() {
-    int gd = DETECT, gm;
-    initgraph(&gd, &gm, "C:\\Turboc3\\BGI");
+int main() 
+{ 
 
-    int x = 200, y = 200, radius = 100;
-    circle(x, y, radius);
-
-    getch();
-    closegraph();
-    return 0;
+	int a[5] = { 4, 20, 100, 66, 37 }; 
+	int n = 5, i, j, t = 0; 
+	
+	// iterates the array elements 
+	for (i = 0; i < n; i++) { 
+		
+		// iterates the array elements from index 1 
+		for (j = i + 1; j < n; j++) { 
+			
+			// comparing the array elements, to set array 
+			// elements in descending order 
+			if (a[i] < a[j]) { 
+				t = a[i]; 
+				a[i] = a[j]; 
+				a[j] = t; 
+			} 
+		} 
+	} 
+	// printing the output 
+	for (i = 0; i < n; i++) { 
+		printf("%d ", a[i]); 
+	} 
+	return 0; 
 }
