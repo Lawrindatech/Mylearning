@@ -1,8 +1,12 @@
-Name: angie,
- Course: math, 
-Marks: 79.00, 
-Grade: B
-Name: tina,
- Course: English, 
-Marks: 56.00, 
-Grade: D
+Name  : hana
+Course: Music
+Marks : 67.00
+Grade : B
+Name  : jane
+Course: Biology
+Marks : 78.00
+Grade : B
+Name  : jrj
+Course: math
+Marks : 45.00
+Grade : E

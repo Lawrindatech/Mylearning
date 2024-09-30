@@ -42,7 +42,10 @@ int main() {
         calculateGrade(marks, &grade);
 
         printf("Dear %s from the %s class, your grade is: \"%c\"\n", name, course, grade);
-        fprintf(file, "Name: %s\nCourse: %s\nMarks: %.2f,\nGrade: %c\n", name, course, marks, grade);
+        fprintf(file,"Name  : %s\n", name);
+        fprintf(file,"Course: %s\n",course);
+        fprintf(file,"Marks : %.2f\n",marks);
+        fprintf(file,"Grade : %c\n",grade);
     }
 
     fclose(file);
