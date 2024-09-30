@@ -6,10 +6,10 @@ int main(){
     double raised;
     printf("Enter number: ");
     scanf("%d", &num);
-     printf("The answer is: %lf", sqrt(num));
+     printf("The answer is: %.2lf", sqrt(num));
 
      raised = sqrt(num);
-     printf("The power of the number is: %lf", pow(num, s))
+     printf("\nThe power of the number is: %.2lf", pow(num, raised));
      return 0;
 
 }
