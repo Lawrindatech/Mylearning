@@ -7,12 +7,12 @@ int main(){
     printf("Enter number: ");
     scanf("%d", &number);
      
-     count = 10;
-     while (count >= 1)
+     count = 1;
+     while (count <= 12)
      {
         int product = number * count;
         printf("%d * %d = %d\n", number, count, product );
-        count = count - 1;
+        count = count + 1;
      }
      return 0;
 }
