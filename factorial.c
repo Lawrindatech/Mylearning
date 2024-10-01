@@ -10,7 +10,7 @@ printf("Enter number: ");
 scanf("%d", &number);
 
 result = sum(number);
-printf("sum = %d", result);
+printf("%d factorial is = %d",number, result);
   return 0;
 }
 int sum(int n){
