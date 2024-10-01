@@ -6,8 +6,10 @@
 
 int main() 
 { 
-	char str[] = "GeeksforGeeks, A computer science portal for geeks"; 
-	
+   char str[100]; 
+   printf("Input to get initials: ");
+   fgets(str, sizeof(str), stdin);
+
 	// This will give first word of String. 
 	char* ptr = strtok(str, " "); 
 	
