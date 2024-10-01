@@ -13,10 +13,14 @@ if (*str)
 }
 }
 
-// Driver code
+
 int main()
 {
-char a[] = "Geeks for Geeks";
-reverse(a);
-return 0;
+	char a[20];
+	printf("Enter what you want to reverse: ");
+    scanf("%s", &a);
+    printf("The reversed is: ");
+
+	reverse(a);
+	return 0;
 }
