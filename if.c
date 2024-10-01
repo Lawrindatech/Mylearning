@@ -7,11 +7,11 @@ int main(){
 
      if (number > 0)
      {
-       printf("The number is positive");
+       printf("%d is a positive number", number);
      }
      else if (number < 0)
      {
-        printf("The number is negative");
+        printf("%d is a negative number", number);
      }
      else printf("The number is 0");
 
