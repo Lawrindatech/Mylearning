@@ -1,4 +1,4 @@
 # Hello ,welcome to my C learning journey
-I started learning C and I am enjoing it.
+I started learning C and I am enjoyng it.
 I have create lot of programs for the past few weeks.
-On September 26th , I created a factorial program. And I think I did a good job
+c is a middle level language and can be used for game development, system development, embedded systems etc.
