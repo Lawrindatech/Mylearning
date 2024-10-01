@@ -10,7 +10,6 @@ int main()
 	// Ask user to enter the two numbers
 	printf("Enter two numbers A and B : \n");
 
-	// Read two numbers from the user || A = 17, B = 5
 	scanf("%d%d", &A, &B);
 
 	// Calculate the quotient of A and B using '/' operator
@@ -20,8 +19,8 @@ int main()
 	remainder = A % B;
 
 	// Print the result
-	printf("Quotient when A/B is: %d\n", quotient);
-	printf("Remainder when A/B is: %d", remainder);
+	printf("Quotient when %d/%d is: %d\n",A, B, quotient);
+	printf("Remainder when %d/%d is: %d", A, B, remainder);
 
 	return 0;
 }
