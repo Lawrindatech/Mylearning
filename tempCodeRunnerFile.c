@@ -1,22 +1,30 @@
-// C program to reverse a string 
-// using recursion
-# include <stdio.h>
+// C program to sort array elements in descending order 
+#include <stdio.h> 
 
-// Function to print reverse of 
-// the passed string 
-void reverse(char *str)
-{
-if (*str)
-{
-	reverse(str + 1);
-	printf("%c", *str);
-}
-}
+int main() 
+{ 
 
-// Driver code
-int main()
-{
-char a[] = "Geeks for Geeks";
-reverse(a);
-return 0;
+	int a[5] = { 4, 20, 100, 66, 37 }; 
+	int n = 5, i, j, t = 0; 
+	
+	// iterates the array elements 
+	for (i = 0; i < n; i++) { 
+		
+		// iterates the array elements from index 1 
+		for (j = i + 1; j < n; j++) { 
+			
+			// comparing the array elements, to set array 
+			// elements in descending order 
+			if (a[i] < a[j]) { 
+				t = a[i]; 
+				a[i] = a[j]; 
+				a[j] = t; 
+			} 
+		} 
+	} 
+	// printing the output 
+	for (i = 0; i < n; i++) { 
+		printf("%d ", a[i]); 
+	} 
+	return 0; 
 }
